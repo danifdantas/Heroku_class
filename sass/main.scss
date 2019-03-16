@@ -1,0 +1,15 @@
+@import '_vars';
+@import 'modules/_home';
+@import 'modules/_users';
+a {
+  text-decoration: none;
+  color: rgb(1, 238, 255);
+  text-transform: uppercase;
+}
+
+.user-pic {
+  width: 200px;
+  img {
+    width: 100%;
+  }
+}
